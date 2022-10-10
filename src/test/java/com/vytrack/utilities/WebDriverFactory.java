@@ -7,6 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class WebDriverFactory {
+
     public static WebDriver getDriver(String browserType) {
 
         if (browserType.equalsIgnoreCase("chrome")) {
