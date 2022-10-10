@@ -9,6 +9,8 @@ public class Ts7_86_Automation {
 
     // ferhat was here
 
+    //EthemG is Ready
+
 
 
 
