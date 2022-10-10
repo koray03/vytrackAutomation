@@ -53,17 +53,14 @@ public class Ts7_86_Automation {
 
     WebElement pinIconText = driver.findElement(By.xpath("//*[@id=\"container\"]/div[2]/div/p[1]"));
     String actualText2 = pinIconText.getText();
-    String expectedText2 = "Use the pin icon on the right top corner of the page to create fast access link in the pinbar.";
-   // Assert.assertEquals(actualText2, expectedText2);
-    if (actualText2.equals(expectedText2)){
-        System.out.println("Passed");
-    }else{
-        System.out.println("Failed");
+    String expectedText2 = "Use the pin icon on the right top corner of page to create fast access link in the pinbar.";
+    Assert.assertEquals(actualText2, expectedText2);
+
     }
 }
 
 
-}
+
 
 
 
